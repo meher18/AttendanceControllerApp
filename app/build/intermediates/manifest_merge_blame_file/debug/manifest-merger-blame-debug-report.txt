@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:7:5-80
+11-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:7:22-78
+12
+13    <application
+13-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:8:5-72:19
+14        android:name="com.android.attendance.context.ApplicationContext"
+14-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:10:9-73
+15        android:allowBackup="true"
+15-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:11:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@drawable/file"
+18-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:12:9-38
+19        android:label="@string/app_name"
+19-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:13:9-41
+20        android:supportsRtl="true"
+20-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:9:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:14:9-40
+22        <activity
+22-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:16:9-18:25
+23            android:name="com.android.attendance.activity.viewsinglestudentattendance"
+23-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:16:19-93
+24            android:theme="@style/Theme.AppCompat.DayNight" />
+24-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:17:13-60
+25        <activity
+25-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:19:9-21:63
+26            android:name="com.android.attendance.activity.AttndanceDate"
+26-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:20:13-73
+27            android:theme="@style/Theme.AppCompat.DayNight" />
+27-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:21:13-60
+28        <activity
+28-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:22:9-25:63
+29            android:name="com.android.attendance.activity.addsubjects"
+29-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:23:13-71
+30            android:label="@string/app_name"
+30-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:24:13-45
+31            android:theme="@style/Theme.AppCompat.DayNight" />
+31-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:25:13-60
+32        <activity
+32-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:26:9-34:20
+33            android:name="com.android.attendance.activity.MainActivity"
+33-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:27:13-72
+34            android:label="@string/app_name" >
+34-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:28:13-45
+35            <intent-filter>
+35-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:29:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:30:17-69
+36-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:30:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:32:17-77
+38-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:35:9-37:48
+42            android:name="com.android.attendance.activity.LoginActivity"
+42-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:36:13-73
+43            android:label="@string/app_name" />
+43-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:37:13-45
+44        <activity
+44-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:38:9-40:48
+45            android:name="com.android.attendance.activity.MenuActivity"
+45-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:39:13-72
+46            android:label="@string/app_name" />
+46-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:40:13-45
+47        <activity
+47-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:41:9-43:48
+48            android:name="com.android.attendance.activity.AddFacultyActivity"
+48-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:42:13-78
+49            android:label="@string/app_name" />
+49-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:43:13-45
+50        <activity
+50-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:44:9-46:48
+51            android:name="com.android.attendance.activity.AddStudentActivity"
+51-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:45:13-78
+52            android:label="@string/app_name" />
+52-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:46:13-45
+53        <activity
+53-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:47:9-49:48
+54            android:name="com.android.attendance.activity.ViewFacultyActivity"
+54-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:48:13-79
+55            android:label="@string/app_name" />
+55-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:49:13-45
+56        <activity
+56-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:50:9-52:48
+57            android:name="com.android.attendance.activity.ViewStudentActivity"
+57-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:51:13-79
+58            android:label="@string/app_name" />
+58-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:52:13-45
+59        <activity
+59-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:53:9-55:48
+60            android:name="com.android.attendance.activity.TestActivity"
+60-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:54:13-72
+61            android:label="@string/app_name" />
+61-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:55:13-45
+62        <activity
+62-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:56:9-58:48
+63            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+63-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:57:13-83
+64            android:label="@string/app_name" />
+64-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:58:13-45
+65        <activity
+65-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:59:9-61:48
+66            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+66-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:60:13-88
+67            android:label="@string/app_name" />
+67-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:61:13-45
+68        <activity
+68-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:62:9-64:48
+69            android:name="com.android.attendance.activity.AddAttendanceActivity"
+69-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:63:13-81
+70            android:label="@string/app_name" />
+70-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:64:13-45
+71        <activity
+71-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:65:9-67:48
+72            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+72-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:66:13-91
+73            android:label="@string/app_name" />
+73-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:67:13-45
+74        <activity
+74-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:68:9-71:63
+75            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+75-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:69:13-92
+76            android:label="@string/app_name"
+76-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:70:13-45
+77            android:theme="@style/Theme.AppCompat.DayNight" />
+77-->C:\Users\LENOVO\AndroidStudioProjects\AndroidAttendanceAppMaster\app\src\main\AndroidManifest.xml:71:13-60
+78    </application>
+79
+80</manifest>

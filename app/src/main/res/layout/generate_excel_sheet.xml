@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:elevation="20dp"
+   >
+
+
+    <LinearLayout
+
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:inputType="date"
+            android:padding="10dp"
+            android:background="@drawable/roundedtextview"
+            android:id="@+id/excel_date"
+            android:hint="Enter date"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/excel_spinner"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+        <EditText
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedtextview"
+            android:padding="10dp"
+            android:id="@+id/excel_semester"
+            android:hint="Enter semester"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedtextview"
+            android:padding="10dp"
+            android:id="@+id/excel_subject"
+            android:hint="Enter subject"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/ripplebutton"
+            android:id="@+id/generate_excel_button"
+            android:layout_gravity="center"
+            android:text="Generate Excel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

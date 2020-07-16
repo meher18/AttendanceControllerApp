@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/viewStudentAttendance" android:iconTintMode="multiply" android:iconTint="#000" android:icon="@drawable/ic_person_24dp" android:title="View Attendance">
+
+
+
+    </item>
+
+    <item android:id="@+id/generate_excelSheet" android:icon="@drawable/ic_excel_sheet_24dp" android:title="ExcelSheet" ></item>
+</menu>

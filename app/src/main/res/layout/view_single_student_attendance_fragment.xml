@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <TextView
+       android:layout_margin="10dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="15dp"
+       android:textColor="#26C6DA"
+       android:text="Enter either registration no or student name ">
+
+   </TextView>
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:background="@drawable/roundedtextview"
+            android:padding="10dp"
+            android:hint="Reg-no or First Name"
+            android:id="@+id/Student_name_registration_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <Button
+            android:background="@drawable/ripplebutton"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/Submit_student"
+            android:layout_width="wrap_content"
+            android:text="Submit"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+       android:lineHeight="40dp"
+        android:id="@+id/student_single_attendance_details"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:padding="10dp"
+        android:text="Here will be the student details"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>

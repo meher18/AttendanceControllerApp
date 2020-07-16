@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/labelAttendancePerStudent"
+        android:layout_width="wrap_content"
+    android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"
+    android:orientation="vertical"
+    android:elevation="20dp">
+
+   <LinearLayout
+       android:layout_margin="20dp"
+       android:layout_gravity="center"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <TextView
+           android:textColor="#FFAAB4"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:layout_margin="10dp"
+           android:layout_gravity="center_horizontal"
+
+           android:text="Please delete carefully"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </TextView>
+       <EditText
+           android:layout_gravity="center"
+           android:inputType="date"
+           android:background="@drawable/roundedtextview"
+           android:hint="d/m/yyyy"
+           android:padding="10dp"
+           android:id="@+id/delete_date"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content">
+
+       </EditText>
+       <EditText
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/roundedtextview"
+           android:padding="10dp"
+           android:hint="subject"
+           android:id="@+id/delete_subject"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content">
+
+       </EditText>
+       <Button
+           android:layout_margin="10dp"
+           android:background="@drawable/ripplebutton"
+           android:layout_gravity="center"
+           android:id="@+id/deleteAttendance"
+           android:text="delete"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </Button>
+   </LinearLayout>
+</androidx.cardview.widget.CardView>
